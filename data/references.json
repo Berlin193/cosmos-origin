@@ -1,0 +1,82 @@
+{
+  "project": "COSMOS ORIGIN",
+  "version": "1.0.0",
+  "references": [
+    {
+      "id": "nasa-universe",
+      "organization": "NASA",
+      "title": "The Universe",
+      "url": "https://science.nasa.gov/universe/",
+      "topics": [
+        "الكون",
+        "الانفجار العظيم",
+        "تمدد الكون",
+        "المجرات"
+      ]
+    },
+    {
+      "id": "nasa-cmb",
+      "organization": "NASA",
+      "title": "Cosmic Microwave Background",
+      "url": "https://science.nasa.gov/universe/overview/",
+      "topics": [
+        "الخلفية الكونية الميكروية",
+        "الكون المبكر"
+      ]
+    },
+    {
+      "id": "esa-planck",
+      "organization": "ESA",
+      "title": "Planck Mission",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck",
+      "topics": [
+        "الخلفية الكونية",
+        "الكون المبكر",
+        "علم الكونيات"
+      ]
+    },
+    {
+      "id": "esa-webb",
+      "organization": "ESA",
+      "title": "James Webb Space Telescope",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb",
+      "topics": [
+        "النجوم الأولى",
+        "المجرات المبكرة",
+        "تطور المجرات"
+      ]
+    },
+    {
+      "id": "cern-standard-model",
+      "organization": "CERN",
+      "title": "The Standard Model",
+      "url": "https://home.cern/science/physics/standard-model",
+      "topics": [
+        "الجسيمات",
+        "المادة",
+        "الكون المبكر"
+      ]
+    },
+    {
+      "id": "nasa-dark-matter",
+      "organization": "NASA",
+      "title": "Dark Matter",
+      "url": "https://science.nasa.gov/universe/dark-matter-dark-energy/",
+      "topics": [
+        "المادة المظلمة",
+        "تكوين المجرات",
+        "بنية الكون"
+      ]
+    },
+    {
+      "id": "nasa-dark-energy",
+      "organization": "NASA",
+      "title": "Dark Energy",
+      "url": "https://science.nasa.gov/universe/dark-energy/",
+      "topics": [
+        "الطاقة المظلمة",
+        "تسارع تمدد الكون"
+      ]
+    }
+  ]
+}
