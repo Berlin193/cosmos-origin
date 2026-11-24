@@ -1,17 +1,17 @@
 import './style.css';
 
 const topics = [
-  { id: 'early', number: '01', title: 'الكون المبكر', description: 'من المراحل الأولى للكون إلى تكوّن الجسيمات والذرات.', evidence: 'نماذج مدعومة' },
-  { id: 'structures', number: '02', title: 'نشأة البُنى الكونية', description: 'كيف تشكّلت النجوم والمجرات والعناقيد واسعة النطاق.', evidence: 'دعم رصدي قوي' },
-  { id: 'dark', number: '03', title: 'المادة والطاقة المظلمتان', description: 'ما نرصده، وما لا نزال نحاول فهمه عن مكوّنات الكون.', evidence: 'بحث نشط' },
-  { id: 'black-holes', number: '04', title: 'الثقوب السوداء', description: 'الجاذبية القصوى، أفق الحدث، وملاحظات الثقوب السوداء.', evidence: 'دعم رصدي قوي' },
+  { id: 'early', number: '01', title: 'الكون المبكر', description: 'من المراحل الأولى للكون إلى تكوّن الجسيمات والذرات.', evidence: 'نماذج مدعومة', href: '/topics/early.html' },
+  { id: 'structures', number: '02', title: 'نشأة البُنى الكونية', description: 'كيف تشكّلت النجوم والمجرات والعناقيد واسعة النطاق.', evidence: 'دعم رصدي قوي', href: '/topics/structures.html' },
+  { id: 'dark', number: '03', title: 'المادة والطاقة المظلمتان', description: 'ما نرصده، وما لا نزال نحاول فهمه عن مكوّنات الكون.', evidence: 'بحث نشط', href: '/topics/dark.html' },
+  { id: 'black-holes', number: '04', title: 'الثقوب السوداء', description: 'الجاذبية القصوى، أفق الحدث، وملاحظات الثقوب السوداء.', evidence: 'دعم رصدي قوي', href: '/topics/black-holes.html' },
 ];
 
 const app = document.querySelector('#app');
 
 app.innerHTML = `
   <header class="topbar">
-    <a class="brand" href="#" aria-label="Cosmos Origin الرئيسية">
+    <a class="brand" href="/" aria-label="Cosmos Origin الرئيسية">
       <span class="brand-mark" aria-hidden="true">✦</span>
       <span>COSMOS <b>ORIGIN</b></span>
     </a>
@@ -47,7 +47,7 @@ app.innerHTML = `
           <article class="topic-card">
             <div class="topic-top"><span>${topic.number}</span><span class="evidence">${topic.evidence}</span></div>
             <h3>${topic.title}</h3><p>${topic.description}</p>
-            <a href="${topic.id === 'black-holes' ? '/data/black-holes.md' : '/docs/big-bang.md'}" aria-label="اقرأ المزيد عن ${topic.title}">اقرأ المزيد <span aria-hidden="true">↗</span></a>
+            <a href="${topic.href}" aria-label="اقرأ المزيد عن ${topic.title}">اقرأ المزيد <span aria-hidden="true">↗</span></a>
           </article>`).join('')}
       </div>
     </section>
